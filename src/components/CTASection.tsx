@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-
 export function CTASection() {
   return (
     <section className="relative w-full bg-surface border-y border-border/10">
@@ -12,26 +10,22 @@ export function CTASection() {
           alguien que conecte visión de negocio con ejecución técnica, hablemos.
         </p>
         <div className="flex flex-col gap-3 w-full max-w-sm sm:flex-row sm:max-w-none sm:w-auto sm:gap-4">
-          <Button
-            variant="default"
-            size="lg"
-            className="w-full sm:w-auto bg-cta-primary-bg text-cta-primary-text border border-cta-primary-border hover:bg-zinc-200 active:translate-y-px transition-all rounded-full px-8"
-            asChild
+          <a
+            href="mailto:kenneth@kennethluna.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-1.5 rounded-full bg-cta-primary-bg text-cta-primary-text border border-cta-primary-border hover:bg-zinc-200 active:translate-y-px transition-all px-8 h-9 text-sm font-medium w-full sm:w-auto"
           >
-            <a href="mailto:kenneth@kennethluna.com" target="_blank" rel="noopener noreferrer">
-              Contactar
-            </a>
-          </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="w-full sm:w-auto border-border bg-transparent hover:bg-muted/50 text-foreground rounded-full px-8 dark:border-white/20 dark:bg-white/5 dark:hover:bg-white/10"
-            asChild
+            Contactar
+          </a>
+          <a
+            href="https://linkedin.com/in/kennethluna"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-1.5 rounded-full border border-border bg-transparent hover:bg-muted/50 text-foreground h-9 text-sm font-medium w-full sm:w-auto dark:border-white/20 dark:bg-white/5 dark:hover:bg-white/10 px-8"
           >
-            <a href="https://linkedin.com/in/kennethluna" target="_blank" rel="noopener noreferrer">
-              Ver LinkedIn
-            </a>
-          </Button>
+            Ver LinkedIn
+          </a>
         </div>
       </div>
     </section>
