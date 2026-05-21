@@ -26,6 +26,11 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_MX",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kenneth Luna · Business Broker · Vibe Coder",
+    description: "Conecto oportunidades de negocio con ejecución práctica en tecnología.",
+  },
 };
 
 export default function RootLayout({

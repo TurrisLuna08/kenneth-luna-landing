@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import { ExternalLink, Code2 } from "lucide-react"
 
 interface Project {
